@@ -10,21 +10,21 @@ function Cards() {
 				<div className='cards__wrapper'>
 					<ul className='cards__items'>
 						<CardItem
-							src='/src/images/img-9.jpg'
-							text='Project 1'
-							label='Learning'
+							src='https://res.cloudinary.com/dv01780vo/image/upload/v1609354521/Tunr_App_gbavm7.png'
+							text='A simple music app where you can track some of your favorite songs'
+							label='Tunr'
 							path='/projects'
 						/>
 						<CardItem
-							src='https://res.cloudinary.com/dv01780vo/image/upload/v1600364953/Screen_Shot_2020-09-15_at_4.04.59_PM_vr10ee_qteocd.jpg'
-							text='Project 1'
-							label='Learning'
+							src='https://res.cloudinary.com/dv01780vo/image/upload/v1609355151/ClimbTimeApp_tztb7h.png'
+							text='An app to find to best climbing routes in the area that you are visiting'
+							label='ClimbTime!'
 							path='/projects'
 						/>
 						<CardItem
-							src='images/img-3.jpg'
-							text='Project 1'
-							label='Learning'
+							src='https://res.cloudinary.com/dv01780vo/image/upload/v1609353829/Project-3_-_Pause_bcwozt.png'
+							text='A self-care app to help with those everyday stresses'
+							label='pause.app'
 							path='/projects'
 						/>
 					</ul>
