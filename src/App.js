@@ -7,6 +7,7 @@ import Projects from './components/pages/Projects';
 import ContactMe from './components/pages/ContactMe';
 import AboutMe from './components/pages/AboutMe';
 import Skills from './components/pages/Skills';
+import Footer from './components/Footer';
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 					<Route path='/skills' component={Skills} />
 					<Route path='/about-me' component={AboutMe} />
 				</Switch>
+				<Footer />
 			</Router>
 		</>
 	);
