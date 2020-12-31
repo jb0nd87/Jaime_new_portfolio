@@ -14,7 +14,9 @@ function Cards() {
 							text='A simple music app where you can track some of your favorite songs'
 							label='Tunr'
 							href='https://tunr-on-rye.netlify.app/'
-							target='_blank'
+							onClick={() =>
+								window.open('https://tunr-on-rye.netlify.app/', '_blank')
+							}
 						/>
 						<CardItem
 							src='https://res.cloudinary.com/dv01780vo/image/upload/v1609355151/ClimbTimeApp_tztb7h.png'
