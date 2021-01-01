@@ -5,7 +5,7 @@ function CardItem(props) {
 	return (
 		<>
 			<li className='cards__item'>
-				<a className='cards__item__link' href={props.href}>
+				<a className='cards__item__link' href={props.href} onClick={props.onClick}>
 					<figure className='cards__item__pic-wrap' data-category={props.label}>
 						<img src={props.src} alt='Project' className='cards__item__img' />
 					</figure>
