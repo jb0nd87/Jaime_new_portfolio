@@ -1,7 +1,8 @@
-import { Button } from './Button';
+// import { Button } from './Button';
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import FooterForm from './FooterForm'
 
 function Footer() {
 	return (
@@ -13,7 +14,8 @@ function Footer() {
 				<p className='footer-subscription-text'>
 					Feel free to contact me at anytime!
 				</p>
-				<div className='input-areas'>
+                <FooterForm />
+				{/* <div className='input-areas'>
 					<form>
 						<input
 							type='email'
@@ -23,7 +25,7 @@ function Footer() {
 						/>
 						<Button buttonStyle='btn--outline'>SUBMIT</Button>
 					</form>
-				</div>
+				</div> */}
 			</section>
 			<div class='footer-links'>
 				<div className='footer-link-wrapper'>

@@ -1,0 +1,27 @@
+.footer-form {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+	justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.footer-btn {
+    padding: 8px 20px;
+	border-radius: 2px;
+	outline: none;
+	border: none;
+    cursor: pointer;
+    background-color: transparent;
+	color: white;
+    padding: 8px 20px;
+    border: 1px solid white;
+}
+
+.footer-btn:hover{
+    background: white;
+	color: black;
+	transition: all 0.3s ease-out;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from './Button';
+import './FooterForm.css'
 
 export default class MyForm extends React.Component {
 	constructor(props) {
@@ -14,20 +15,16 @@ export default class MyForm extends React.Component {
 		const { status } = this.state;
 		return (
 			<form
-				className='contact-form'
+				className='footer-form'
 				onSubmit={this.submitForm}
 				action='https://formspree.io/f/mgeppjqd'
 				method='POST'>
 				{/* <!-- add your custom form HTML here --> */}
 				<label>Email:</label>
 				<input type='email' name='email' />
-				<label>Message:</label>
-				<input type='text' name='message' />
-				{status === 'SUCCESS' ? (
-					<p>Thanks!</p>
-				) : (
-					<button className='contact-btn'>Submit</button>
-				)}
+				{/* <label>Message:</label>
+				<input type='text' name='message' /> */}
+				{status === 'SUCCESS' ? <p>Thanks!</p> : <button className='footer-btn'>Submit</button>}
 				{status === 'ERROR' && <p>Ooops! There was an error.</p>}
 			</form>
 		);

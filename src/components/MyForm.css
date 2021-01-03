@@ -6,7 +6,25 @@
     font-size: 20px;
 }
 
-form {
+.contact-btn {
+    padding: 8px 20px;
+	border-radius: 2px;
+	outline: none;
+	border: none;
+    cursor: pointer;
+    background-color: transparent;
+	color: black;
+    padding: 8px 20px;
+    border: 1px solid black;
+}
+
+.contact-btn:hover{
+    background: black;
+	color: white;
+	transition: all 0.3s ease-out;
+}
+
+.contact-form {
     display: grid;
     grid-template-rows: repeat(4, auto);
     grid-gap: 10px;
@@ -14,5 +32,6 @@ form {
 	justify-content: center;
     align-items: center;
     padding: 10px;
+    margin: 20px;
     font-size: 20px;
 }
