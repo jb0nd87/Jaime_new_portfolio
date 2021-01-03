@@ -1,0 +1,18 @@
+.contact-info p {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 10px;
+    /* flex-direction: row; */
+	justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+}
