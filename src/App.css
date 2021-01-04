@@ -66,3 +66,27 @@
   padding: 2rem;
   margin: 20px;
 }
+
+.about p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 25px;
+  padding: 25px;
+  text-align: justify;
+  /* width: 50%; */
+}
+
+.pic img {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  height: 25vw;
+  width: 25vw;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 400px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}

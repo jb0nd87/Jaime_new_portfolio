@@ -11,25 +11,25 @@ export default function Skills() {
 						<i className='fab fa-html5'></i> HTML
 					</li>
 					<li>
-						<i class='fab fa-react'></i> REACT
+						<i className='fab fa-react'></i> REACT
 					</li>
 					<li>
-						<i class='fas fa-gem'></i> RUBY ON RAILS
+						<i className='fas fa-gem'></i> RUBY ON RAILS
 					</li>
 					<li>
-						<i class='fab fa-js'></i> JAVASCRIPT
+						<i className='fab fa-js'></i> JAVASCRIPT
 					</li>
 					<li>
-						<i class='fab fa-css3'></i> CSS
+						<i className='fab fa-css3'></i> CSS
 					</li>
 					<li>
-						<i class='fab fa-sass'></i> SCSS
+						<i className='fab fa-sass'></i> SCSS
 					</li>
 					<li>
-						<i class='fas fa-robot'></i> AUTODESK MAYA
+						<i className='fas fa-robot'></i> AUTODESK MAYA
 					</li>
 					<li>
-						<i class='fab fa-unity'></i> UNITY
+						<i className='fab fa-unity'></i> UNITY
 					</li>
 				</ul>
 			</div>
